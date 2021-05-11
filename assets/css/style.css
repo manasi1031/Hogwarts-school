@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital@1&family=Ubuntu:ital@1&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,48 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-family: cantarell, sans-serif;
+    font-weight: 350;
     color: #0F0C00;
+    background-color: #EEDB7A;
 }
+
+/* Heading and Logo */
+
+h1, h2, h3 {
+    font-family: ubuntu, sans-serif;
+    text-transform: uppercase;
+    color: #A40002;
+    letter-spacing: 5px;
+}
+
+#logo {
+    float: right;
+    font-size: 300%;
+    margin-right: 80px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#logo img {
+    border-radius: 4px;
+    padding: 5px;
+    width: 175px;
+}
+
+#menu {
+    font-size: 100%;
+    letter-spacing: 5px;
+}
+
+#menu, #logo {
+    line-height: 40px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+
