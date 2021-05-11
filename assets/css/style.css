@@ -15,7 +15,7 @@ body {
 
 /* Heading and Logo */
 
-h1, h2, h3 {
+h1, h2, h3, #menu {
     font-family: ubuntu, sans-serif;
     text-transform: uppercase;
     color: #A40002;
@@ -48,7 +48,19 @@ h1, h2, h3 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 60px;
 }
 
+#menu a {
+    text-decoration: none;
+    color: inherit
+}
+
+#menu a:hover {
+    border-bottom: 3px solid #67003E;
+}
+
+.active {
+    border-bottom: 3px solid #67003E;
+}
 
