@@ -81,7 +81,8 @@ h1, h2, h3, #menu {
 #cover-text {
     font-size: 100%;
     font-family: ubuntu, sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    text-align: justify;
 
     width: 350px;
     height: 300px;
@@ -91,8 +92,35 @@ h1, h2, h3, #menu {
     background-color: rgba(255, 212, 212, 0.6);
     color: #0F0C00;
 
-    top: 30px;
+    top: 80px;
     right: 80px;
     
     position: absolute;
+}
+
+/* Styling About us, Video, School houses and newsletters */
+.about-us {
+    height: 400px;
+}
+
+aside iframe {
+    width: 100%
+}
+
+#left-about-us {
+    padding-top: 30px;
+    width: 70%;
+    float: left;
+}
+
+#right-about-us {
+    padding-top: 30px;
+    width: 30%;
+    float: right;
+}
+
+hr {
+    border-bottom: 1px solid black;
+    width: auto;
+    margin: 5px 0;
 }
