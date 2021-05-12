@@ -143,6 +143,11 @@ aside iframe {
     position: relative;
 }
 
+#house-left p {
+    width: 300px;
+    text-align: justify;
+}
+
 #house-right {
     float: right;
     width: 46.5%;
@@ -152,6 +157,12 @@ aside iframe {
     list-style: none;
     position: relative;
 }
+
+#house-right p {
+    width: 300px;
+    text-align: justify;
+}
+
 #crest {
     position: absolute;
     top: 10px;
@@ -167,32 +178,24 @@ aside iframe {
 
 footer {
     height: 100px;
-    width: 100%;
-    color: #A40002;
 }
 
-footer a:hover {
-    border: 1px solid #67003E;
-}
 .social-media {
-    list-style-type: none;
-    text-align: left;
-    font-size: 1.25rem;
+    text-align: center;
+    height: 100px;
 }
 
-.social-networks li {
-    display: inline-block;
+.social-media li {
+    display: inline;
 }
 
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 10%;
-    letter-spacing: 10px;
-    float: left;
+.social-media i {
+    font-size: 150%;
+    margin: 2%;
+    padding: 5%;
+    color: black;
 }
 
-#foot-note {
-    text-align: right;
-    float: right;
+footer a:hover {
+    border: 1px solid black;
 }
