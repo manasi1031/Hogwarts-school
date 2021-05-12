@@ -15,7 +15,7 @@ body {
 
 /* Heading and Logo */
 
-h1, h2, #menu {
+h1, h2, h3, #menu {
     font-family: ubuntu, sans-serif;
     text-transform: uppercase;
     color: #A40002;
@@ -117,13 +117,33 @@ aside iframe {
 }
 
 #right-about-us {
-    padding-top: 100px;
+    padding-top: 50px;
     width: 30%;
     float: right;
 }
 
-hr {
-    border-bottom: 1px  black;
-    width: auto;
-    margin: 5px 0;
+#right-about-us a:hover{
+    border: 1px solid #67003E;
+    font-size: 1.25rem;
+}
+
+#house {
+    padding: 20px;
+    text-align: justify;
+}
+
+#house-left {
+    float: left;
+    width: 50%;
+    height: 300px;
+    border: 1px dotted black;
+    list-style: none;
+}
+
+#crest{
+    height: 200;
+    width: 200;
+    display: inline-block;
+    max-width: 30%;
+    clear: both;
 }
