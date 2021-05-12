@@ -77,6 +77,7 @@ h1, h2, h3, #menu {
     background: url(../images/main_hall_hero.jpg) no-repeat center center;
     height: 600px;
     width: 100%;
+    margin: 0 20px;
 }
 
 #cover-text {
@@ -129,21 +130,69 @@ aside iframe {
 
 #house {
     padding: 20px;
-    text-align: justify;
+    text-align: left;
 }
 
 #house-left {
     float: left;
-    width: 50%;
-    height: 300px;
-    border: 1px dotted black;
+    width: 46.5%;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid black;
     list-style: none;
+    position: relative;
 }
 
-#crest{
-    height: 200;
-    width: 200;
-    display: inline-block;
-    max-width: 30%;
+#house-right {
+    float: right;
+    width: 46.5%;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid black;
+    list-style: none;
+    position: relative;
+}
+#crest {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    width: 200px;
+    height: 200px;
     clear: both;
+    padding: 2px;
+    margin: 5px;
+}
+
+/* Footer */
+
+footer {
+    height: 100px;
+    width: 100%;
+    color: #A40002;
+}
+
+footer a:hover {
+    border: 1px solid #67003E;
+}
+.social-media {
+    list-style-type: none;
+    text-align: left;
+    font-size: 1.25rem;
+}
+
+.social-networks li {
+    display: inline-block;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 10%;
+    letter-spacing: 10px;
+    float: left;
+}
+
+#foot-note {
+    text-align: right;
+    float: right;
 }
