@@ -20,7 +20,7 @@ h1, h2, h3, #menu {
     text-transform: uppercase;
     color: #A40002;
     letter-spacing: 5px;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 #logo {
@@ -70,6 +70,7 @@ h1, h2, h3, #menu {
     height: 600px;
     width: 100%;
     overflow: hidden;
+
     position: relative;
 }
 
@@ -77,7 +78,22 @@ h1, h2, h3, #menu {
     background: url(../images/main_hall_hero.jpg) no-repeat center center;
     height: 600px;
     width: 100%;
-    margin: 0 20px;
+    padding: 20px;
+
+    /* Animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* Creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
 
 #cover-text {
@@ -103,6 +119,7 @@ h1, h2, h3, #menu {
 /* Styling About us, Video, School houses and newsletters */
 .about-us {
     height: 400px;
+    padding: 10px;
 }
 
 aside iframe {
@@ -112,7 +129,7 @@ aside iframe {
 
 #left-about-us {
     padding: 30px 10px;
-    width: 65%;
+    width: 60%;
     float: left;
     text-align: justify;
 }
