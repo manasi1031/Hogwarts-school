@@ -140,6 +140,7 @@ aside iframe {
     width: 394;
     height: 428;
     border: 1px groove #751800;
+    margin-top: 10px;
 }
 
 #left-about-us {
@@ -150,7 +151,7 @@ aside iframe {
 }
 
 #right-about-us {
-    padding-top: 50px;
+    padding-top: 30px;
     width: 30%;
     float: right;
 }
@@ -163,7 +164,6 @@ aside iframe {
 #newsletter {
     height: 70px;
     width: 170px;
-    padding: 10px;
     border: 1px groove #751800;
     border-radius: 10px;
     list-style: none;
@@ -246,7 +246,7 @@ footer a:hover {
     border: 1px solid black;
 }
 
-/* Gallery Style */
+/* Gallery Style - not complete */
 #images {
     clear: both;
     line-height: 0;
@@ -257,3 +257,5 @@ footer a:hover {
 #images > img {
     width: 100%;
 }
+
+/* Contact Us page */

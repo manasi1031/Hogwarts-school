@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+    content="Hogwarts School of Witchcraft and Wizardry is a fictional school for gifted children to learn the fine arts of magic.">
+    <meta name="keywords" content="hogwarts, hogwarts school, school in scotland, magic school">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Hogwarts School</title>
+</head>
+
+<body>
+    <body>
+        <!--Main Header and Logo-->
+        <header>
+            <div>
+                <form>
+                    <ul id="logo">
+                        <li>
+                            <a href="index.html">
+                            <img src="assets/images/hogwarts-Crest.png" alt="Hogwarts School Logo">
+                            </a>
+                        </li>
+                        <li>
+                            <h1>Hogwarts School<br>of Witchcraft and Wizardry</h1>
+                        </li> 
+                    </ul>
+                </form>
+            </div>
+            <nav>
+                <ul id="menu">
+                    <li>
+                        <a href="contact-us.html" class="active">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                </ul>
+            </nav>
+            <br>
+        </header>
+
+        <section id="left-side">
+            <h2>How to Get There?</h2>
+            <p> As Hogwarts is a magical school, the exact location of the school is hidden for safety of everyone.</p>
+        </section>
+
+        <section id="right-side">
+                <form method="POST" action="https://formdump.codeinstitute.net/">
+                    <h2>Contact Us</h2>
+
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="first_name" required class="text-input">
+                    
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="last_name" required class="text-input">
+
+                    <label for="email">Email Address</label>
+                    <input id="email" type="email" name="email_address" required class="text-input">
+                    
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required class="text-input">
+
+                    <label for="message">Message</label>
+                    <input type="text" id="message" name="message" required class="text-input">
+
+                    <label for="vtype">Visitor</label>
+                    <select id="vtype" name="visitor">
+                        <option required>(Blank - Choose one of below)</option>
+                        <option>Parent of Child Studying at School</option>
+                        <option>Parent of Child to begin Study at School</option>
+                        <option>Parent of Child Interested in Study at School</option>
+                        <option>None of Above (General)</option>
+                    </select>
+
+                    <label for="hname">School House Name</label>
+                    <input type="text" id="hname" name="house_name" required class="text-input">
+
+                    <label for="gryffindor">Gryffindor</label>
+                    <input type="radio" id="gryffindor" name="school_house" value="gryffindor" required>
+            
+                    <label for="slythrin">Slythrin</label>
+                    <input type="radio" id="slythrin" name="school_house" value="slythrin">
+            
+                    <label for="ravenclaw">Ravenclaw</label>
+                    <input type="radio" id="ravenclaw" name="school_house" value="ravenclaw">
+
+                    <label for="hufflepuff">Hufflepuff</label>
+                    <input type="radio" id="hufflepuff" name="school_house" value="hufflepuff">
+
+                    <label for="none">None</label>
+                    <input type="radio" id="none" name="school_house" value="none">
+            
+                    <input type="submit" value="Send an OWL" class="join-button">
+                </form>  
+        </section>
+     
+        <footer>
+            <ul class="social-media">
+                <li>
+                    <a href="https://youtube.com" target="_blank" rel="noopener" 
+                        aria-label="Visit our Youtube page (Opens in a new tab)"><i class="fab fa-youtube"></i></a>
+                <li>
+                    <a href="https://twitter.com" target="_blank" rel="noopener" 
+                    aria-label="Visit our Twitter page (Opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://facebook.com" target="_blank" rel="noopener" 
+                    aria-label="Visit our Facebook page (Opens in a new tab)"><i class="fab fa-facebook-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank" rel="noopener" 
+                    aria-label="Visit our Instagram page (Opens in a new tab)"><i class="fab fa-instagram-square"></i></a>
+                </li>
+            </ul>
+            <br>
+            <p class="social-media">
+            Note: This is a fictional website created for project purposes only.
+            </p>
+        </footer>
+    
+        <!--Fontawesome script-->
+        <script src="https://kit.fontawesome.com/22f8691744.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
