@@ -21,22 +21,26 @@ h1, h2, h3, #menu {
     color: #A40002;
     letter-spacing: 5px;
     font-size: 1.25em;
+    text-shadow: 1px 1px;
 }
 
 #logo {
     float: right;
     width: 1200px;
     height: 175px;
-    font-size: 300%;
-    margin-right: 40px;
+    font-size: 250%;
+    margin-right: 80px;
     margin-top: 30px;
     text-align: center;
-    line-height: 3px;
+    line-height: 4px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #logo img {
-    border-radius: 4px;
-    padding: 5px;
+    padding: 0 100px 0 0;
     width: 175px;
     float: left;
 }
@@ -63,6 +67,7 @@ h1, h2, h3, #menu {
 
 #menu a:hover {
     border-bottom: 3px solid #67003E;
+    font-size: 1.25rem;
 }
 
 .active {
@@ -126,9 +131,15 @@ h1, h2, h3, #menu {
     padding: 10px;
 }
 
+hr {
+    border-top: 4px solid #751800;
+    border-radius: 5px;
+}
+
 aside iframe {
     width: 394;
     height: 428;
+    border: 1px groove #751800;
 }
 
 #left-about-us {
@@ -149,9 +160,20 @@ aside iframe {
     font-size: 1.25rem;
 }
 
+#newsletter {
+    height: 70px;
+    width: 170px;
+    padding: 10px;
+    border: 1px groove #751800;
+    border-radius: 10px;
+    list-style: none;
+    overflow: auto;
+}
+
 #house {
     padding: 20px;
     text-align: left;
+    text-align: justify;
 }
 
 #house-left {
@@ -159,7 +181,8 @@ aside iframe {
     width: 46.5%;
     height: 200px;
     padding: 20px;
-    border: 1px solid black;
+    border: 1px groove #751800;
+    border-radius: 10px;
     list-style: none;
     position: relative;
 }
@@ -174,7 +197,8 @@ aside iframe {
     width: 46.5%;
     height: 200px;
     padding: 20px;
-    border: 1px solid black;
+    border: 1px groove #751800;
+    border-radius: 10px;
     list-style: none;
     position: relative;
 }
