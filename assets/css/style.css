@@ -125,7 +125,7 @@ h1, h2, h3, #menu {
     position: absolute;
 }
 
-/* Styling About us, Video, School houses and newsletters */
+/* Styling About us, Video and newsletters */
 .about-us {
     height: 400px;
     padding: 10px;
@@ -170,6 +170,7 @@ aside iframe {
     overflow: auto;
 }
 
+/* Styling School houses */
 .house {
     padding: 20px;
     text-align: left;
@@ -243,4 +244,16 @@ footer {
 
 footer a:hover {
     border: 1px solid black;
+}
+
+/* Gallery Style */
+#images {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#images > img {
+    width: 100%;
 }
