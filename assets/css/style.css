@@ -259,3 +259,89 @@ footer a:hover {
 }
 
 /* Contact Us page */
+#contactus-image {
+    background: url(../images/library-book.jpg) no-repeat center center;
+    height: 600px;
+    width: 100%;
+    padding: 20px;
+    opacity: 0.6;;
+
+    margin-top: 250px;
+
+    position: relative;
+}
+
+#contactus-cover {
+    font-size: 100%;
+    font-family: ubuntu, sans-serif;
+    letter-spacing: 2px;
+    
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: 540px;
+    width: 60%;
+    padding: 20px;
+
+    position: absolute;
+    
+    left: 280px;
+    top: 325px;
+    
+    background-color: rgba(41, 0, 1, 0.1);
+    color: rgba(41, 0, 1, 1);
+}
+
+#top-section {
+    font-size: 110%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#contactus-form {
+    font-size: 100%;
+    text-align: center;
+}
+
+.text-input {
+    background: transparent;
+    color: rgba(41, 0, 1, 1);
+    width: 50%;
+    height: 30px;
+    margin: 5px 0 10px 0;
+    overflow: auto;
+    border: 1px solid rgba(41, 0, 1, 1);
+    border-radius: 5px;
+}
+
+.large {
+    height: 120px;
+}
+
+#contactus-form li {
+    list-style-type: none;
+}
+
+#contactus-form li label{
+    color: #A40002;
+}
+
+#contactus-form li select{
+    font-family: inherit;
+}
+
+.text-input:hover {
+    border-color: #67003E;
+}
+
+#submit-button {
+    font-family: inherit;
+    border: 3px double #A40002;
+    color: #A40002;
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
+
+#submit-button:hover {
+    font-size: 1.45rem;
+    border: 3px double #67003E;
+}

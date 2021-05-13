@@ -15,92 +15,109 @@
 </head>
 
 <body>
-    <body>
-        <!--Main Header and Logo-->
-        <header>
-            <div>
-                <form>
-                    <ul id="logo">
-                        <li>
-                            <a href="index.html">
-                            <img src="assets/images/hogwarts-Crest.png" alt="Hogwarts School Logo">
-                            </a>
-                        </li>
-                        <li>
-                            <h1>Hogwarts School<br>of Witchcraft and Wizardry</h1>
-                        </li> 
-                    </ul>
-                </form>
-            </div>
-            <nav>
-                <ul id="menu">
+    <!--Main Header and Logo-->
+    <header>
+        <div>
+            <form>
+                <ul id="logo">
                     <li>
-                        <a href="contact-us.html" class="active">Contact Us</a>
+                        <a href="index.html">
+                        <img src="assets/images/hogwarts-Crest.png" alt="Hogwarts School Logo">
+                        </a>
                     </li>
                     <li>
-                        <a href="gallery.html">Gallery</a>
-                    </li>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
+                        <h1>Hogwarts School<br>of Witchcraft and Wizardry</h1>
+                    </li> 
                 </ul>
-            </nav>
+            </form>
+        </div>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="contact-us.html" class="active">Contact Us</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
             <br>
-        </header>
+        </nav>
+    </header>
 
-        <section id="left-side">
-            <h2>How to Get There?</h2>
-            <p> As Hogwarts is a magical school, the exact location of the school is hidden for safety of everyone.</p>
-        </section>
+    <section>
+        <div id="contactus-image"></div>
+        <div id="contactus-cover">
+            <div id="top-section">
+                <h2>How to Get There?</h2>
+                <p> 
+                    As Hogwarts is a magical school, the exact location of the school is hidden for safety of everyone.
+                    For any queries, please use OWL post or use the "Contact Us" section on this page.
+                </p>
+            </div>
 
-        <section id="right-side">
+            <div id="contactus-form">
                 <form method="POST" action="https://formdump.codeinstitute.net/">
                     <h2>Contact Us</h2>
-
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="first_name" required class="text-input">
-                    
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="last_name" required class="text-input">
-
-                    <label for="email">Email Address</label>
-                    <input id="email" type="email" name="email_address" required class="text-input">
-                    
-                    <label for="subject">Subject</label>
-                    <input type="text" id="subject" name="subject" required class="text-input">
-
-                    <label for="message">Message</label>
-                    <input type="text" id="message" name="message" required class="text-input">
-
-                    <label for="vtype">Visitor</label>
-                    <select id="vtype" name="visitor">
-                        <option required>(Blank - Choose one of below)</option>
-                        <option>Parent of Child Studying at School</option>
-                        <option>Parent of Child to begin Study at School</option>
-                        <option>Parent of Child Interested in Study at School</option>
-                        <option>None of Above (General)</option>
-                    </select>
-
-                    <label for="hname">School House Name</label>
-                    <input type="text" id="hname" name="house_name" required class="text-input">
-
-                    <label for="gryffindor">Gryffindor</label>
-                    <input type="radio" id="gryffindor" name="school_house" value="gryffindor" required>
+                    <ul class="">
+                        <li>
+                            <label for="fname">Full Name</label>
+                        </li>
+                        <li>
+                            <input type="text" id="fname" name="full_name" required class="text-input">
+                        </li> 
+                        <li>
+                            <label for="email">Email Address</label>
+                        </li>
+                        <li>
+                            <input id="email" type="email" name="email_address" required class="text-input">
+                        </li>
+                        <li>
+                            <label for="message" id="large">Message</label>
+                        </li>
+                        <li>
+                            <input type="text" id="message" name="message" required class="text-input large">
+                        </li>
+                        <li>
+                            <label for="v-type">Visitor</label>
+                        </li>
+                        <li>
+                            <select name="visitor" required>
+                                <option>(Blank - Choose one of below)</option>
+                                <option>Parent of Child Studying at School</option>
+                                <option>Parent of Child to begin Study at School</option>
+                                <option>Parent of Child Interested in Study at School</option>
+                                <option>None of Above (General)</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="school_house">School House Name: (select any one)</label>
+                        </li>
+                        <li>
+                            <label for="gryffindor">Gryffindor</label>
+                            <input type="radio" id="gryffindor" name="school_house" value="gryffindor" required>
+                        
+                            <label for="slythrin">Slythrin</label>
+                            <input type="radio" id="slythrin" name="school_house" value="slythrin">
             
-                    <label for="slythrin">Slythrin</label>
-                    <input type="radio" id="slythrin" name="school_house" value="slythrin">
-            
-                    <label for="ravenclaw">Ravenclaw</label>
-                    <input type="radio" id="ravenclaw" name="school_house" value="ravenclaw">
+                            <label for="ravenclaw">Ravenclaw</label>
+                            <input type="radio" id="ravenclaw" name="school_house" value="ravenclaw">
 
-                    <label for="hufflepuff">Hufflepuff</label>
-                    <input type="radio" id="hufflepuff" name="school_house" value="hufflepuff">
+                            <label for="hufflepuff">Hufflepuff</label>
+                            <input type="radio" id="hufflepuff" name="school_house" value="hufflepuff">
 
-                    <label for="none">None</label>
-                    <input type="radio" id="none" name="school_house" value="none">
-            
-                    <input type="submit" value="Send an OWL" class="join-button">
-                </form>  
+                            <label for="none">None</label>
+                            <input type="radio" id="none" name="school_house" value="none">
+                        </li>
+                        <li>
+                            <input type="submit" value="Submit" id="submit-button">
+                        </li>
+                </ul>
+                </form>
+            </div>
+        </div>
         </section>
      
         <footer>
