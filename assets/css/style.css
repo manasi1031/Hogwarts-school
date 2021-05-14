@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+
 }
 
 body {
@@ -141,18 +142,19 @@ aside iframe {
     width: 394;
     height: 428;
     border: 1px groove #751800;
-    margin-top: 10px;
+    margin-top: 30px;
+
 }
 
 #left-about-us {
-    padding: 30px 10px 20px 10px;
+    padding: 20px 10px 20px 10px;
     width: 60%;
     float: left;
     text-align: justify;
 }
 
 #right-about-us {
-    padding-top: 30px;
+    padding-top: 20px;
     width: 30%;
     float: right;
 }
@@ -176,7 +178,8 @@ aside iframe {
 .house {
     padding: 20px;
     text-align: justify;
-    box-sizing: border-box;
+    box-sizing: flex;
+    flex: 100%;
     width: 100%;
     display: block;
 }
@@ -270,10 +273,10 @@ footer a:hover {
     height: 600px;
     width: 100%;
     padding: 20px;
-    opacity: 0.6;;
-
+    opacity: 0.6;
+    vertical-align: middle;
+ 
     margin-top: 250px;
-
     position: relative;
 }
 
@@ -290,7 +293,7 @@ footer a:hover {
 
     position: absolute;
     
-    left: 280px;
+    left: 310px;
     top: 325px;
     
     background-color: rgba(41, 0, 1, 0.1);
@@ -405,7 +408,7 @@ footer a:hover {
     #logo {
         font-size: 125%;
         margin-right: 0;
-        height: 150px;
+        height: 140px;
         line-height: 20px;
     }
 
@@ -414,42 +417,86 @@ footer a:hover {
         padding: 0;
     }
 
+    #cover-text {
+        font-size: 70%;
+        height: 155px;
+    }
+
     #images {
         column-count: 2;
     }
+
+    footer {
+        font-size: 70%
+    }
+
+    #contactus-cover {
+        left: 190px;
+        font-size: 70%
+    }
+
 }
 
 /* For small and mobile screen sizes from 600px wide and down */
 @media screen and (max-width: 600px) {
-#logo {
-    font-size: 50%;
-    line-height: 15px;
-    letter-spacing: 2px;
-    text-shadow: none;
-    height: 75px;
-    
-}
+    #logo {
+        font-size: 55%;
+        line-height: 15px;
+        letter-spacing: 2px;
+        text-shadow: none;
+        height: 75px;
+    }
 
-#logo img {
-    width: 75px;
-}
+    #logo img {
+        width: 75px;
+    }
 
-#menu {
-    font-size: 60%;
-    letter-spacing: 2px;
-    text-align: center;
-}
+    #menu {
+        font-size: 45%;
+        letter-spacing: 1px;
+        text-align: center;
+        line-height: 8px;
+    }
 
-#menu li {
-    margin-right: 10px;
-}
+    #menu li {
+        float: center;
+    }
 
-#images {
-    column-count: 1;
-}
+    #hero-out, #hero-image {
+        height: 300px;
+    }
 
-footer {
-    font-size: 60%
-}
+    #cover-text {
+        font-size: 40%;
+        width: 150px;
+    }
 
+    #left-about-us, #right-about-us {
+        width: 100%;
+        float: none;
+    }
+
+    #right-about-us aside {
+        height: auto;
+        width: auto;
+    }
+
+    #images {
+        column-count: 1;
+    }
+
+    footer {
+        font-size: 60%
+    }
+
+    #contactus-image {
+        margin-top: 100px;
+    }
+
+    #contactus-cover {
+        top: 150px;
+        width: 80%;
+        left: 60px;
+        font-size: 40%
+    }
 }
