@@ -26,15 +26,14 @@ h1, h2, h3, #menu {
 
 #logo {
     float: right;
-    width: 1200px;
+    width: 100%;
     height: 175px;
-    font-size: 250%;
-    margin-right: 80px;
-    margin-top: 30px;
+    font-size: 220%;
+    margin-top: 20px;
     text-align: center;
     line-height: 4px;
     list-style: none;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
 }
@@ -43,6 +42,8 @@ h1, h2, h3, #menu {
     padding: 0 100px 0 0;
     width: 175px;
     float: left;
+    margin-right: 40px;
+
 }
 
 #menu {
@@ -144,7 +145,7 @@ aside iframe {
 }
 
 #left-about-us {
-    padding: 30px 10px;
+    padding: 30px 10px 20px 10px;
     width: 60%;
     float: left;
     text-align: justify;
@@ -168,18 +169,22 @@ aside iframe {
     border-radius: 10px;
     list-style: none;
     overflow: auto;
+    margin-top: 20px;
 }
 
 /* Styling School houses */
 .house {
     padding: 20px;
-    text-align: left;
     text-align: justify;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
 }
 
 .house-left {
     float: left;
-    width: 46.5%;
+    margin: 20px, 0, 20px, 40px;
+    width: 40.5%;
     height: 200px;
     padding: 20px;
     border: 1px groove #751800;
@@ -188,25 +193,21 @@ aside iframe {
     position: relative;
 }
 
-.house-left p {
-    width: 300px;
+.house-left p, .house-right p {
+    width: 250px;
     text-align: justify;
 }
 
 .house-right {
     float: right;
-    width: 46.5%;
+    margin: 20px, 0, 20px, 40px;
+    width: 40.5%;
     height: 200px;
     padding: 20px;
     border: 1px groove #751800;
     border-radius: 10px;
     list-style: none;
     position: relative;
-}
-
-.house-right p {
-    width: 300px;
-    text-align: justify;
 }
 
 .crest {
@@ -233,6 +234,11 @@ footer {
 
 .social-media li {
     display: inline;
+}
+
+.social-media p{
+    display: block;
+    font-weight: bold;
 }
 
 .social-media i {
@@ -344,4 +350,106 @@ footer a:hover {
 #submit-button:hover {
     font-size: 1.45rem;
     border: 3px double #67003E;
+}
+
+/* media queries */
+
+/* for larger to medium screens size from 1200 px wide and down */
+@media screen and (max-width: 1200px) {
+    #logo {
+        font-size: 180%;
+        margin-right: 0;
+    }
+
+    #logo img {
+        width: 150px;
+        padding: 0;
+    }
+
+    #cover-text {
+        font-size: 90%;
+    }
+
+    #left-about-us {
+        padding: 30px 10px;
+    }
+
+    .house-left, .house-right {
+        width: 40%;
+        clear: both;
+        font: 80%;
+    }
+
+    .crest {
+        width: 101px;
+        height: auto;
+        top: 50px;
+        right: 20px;
+    }
+
+    .house-left p, .house-right p {
+        width: 240px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #images {
+        column-count: 3;
+    }
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+    #logo {
+        font-size: 125%;
+        margin-right: 0;
+        height: 150px;
+        line-height: 20px;
+    }
+
+    #logo img {
+        width: 100px;
+        padding: 0;
+    }
+
+    #images {
+        column-count: 2;
+    }
+}
+
+/* For small and mobile screen sizes from 600px wide and down */
+@media screen and (max-width: 600px) {
+#logo {
+    font-size: 50%;
+    line-height: 15px;
+    letter-spacing: 2px;
+    text-shadow: none;
+    height: 75px;
+    
+}
+
+#logo img {
+    width: 75px;
+}
+
+#menu {
+    font-size: 60%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#menu li {
+    margin-right: 10px;
+}
+
+#images {
+    column-count: 1;
+}
+
+footer {
+    font-size: 60%
+}
+
 }
