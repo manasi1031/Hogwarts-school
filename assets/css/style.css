@@ -130,6 +130,7 @@ h1, h2, h3, #menu {
 /* Styling About us, Video and newsletters */
 .about-us {
     height: 400px;
+    width: 100%;
     padding: 10px;
 }
 
@@ -172,45 +173,64 @@ aside iframe {
     list-style: none;
     overflow: auto;
     margin-top: 20px;
+    text-align: center;
 }
 
 /* Styling School houses */
-.house {
-    padding: 20px;
+#house-cover {
+    height: 670px;
+    width: 100%;
     text-align: justify;
-    box-sizing: flex;
-    flex: 100%;
+    padding: 10px;
+
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.house-info {
+    padding: 30px 10px;
     width: 100%;
     display: block;
 }
 
+.house-info p{
+    padding: 5px 5px 10px 5px;
+}
+
+#house-grid-cover{
+    height: 500px;
+    width: 100%;
+}
+
 .house-left {
     float: left;
-    margin: 20px, 0, 20px, 40px;
-    width: 40.5%;
+    margin: 20px, 20px, 20px, 20px;
+    width: 43%;
     height: 200px;
     padding: 20px;
     border: 1px groove #751800;
     border-radius: 10px;
     list-style: none;
     position: relative;
+    flex: 50%;
 }
 
 .house-left p, .house-right p {
     width: 250px;
-    text-align: justify;
 }
 
 .house-right {
     float: right;
-    margin: 20px, 0, 20px, 40px;
-    width: 40.5%;
+    margin: 20px, 20px, 20px, 20px;
+    width: 43%;
     height: 200px;
     padding: 20px;
     border: 1px groove #751800;
     border-radius: 10px;
     list-style: none;
     position: relative;
+    flex: 50%;
 }
 
 .crest {
@@ -378,9 +398,10 @@ footer a:hover {
     }
 
     .house-left, .house-right {
-        width: 40%;
-        clear: both;
-        font: 80%;
+        width: 400px;
+        font: 70%;
+        margin-bottom: 10px;
+        left: 60px;
     }
 
     .crest {
@@ -417,11 +438,46 @@ footer a:hover {
         padding: 0;
     }
 
+    .about-us {
+        width: 580px;
+    }
+
+    #right-about-us {    
+        height: 768px;
+    }
+
     #cover-text {
         font-size: 70%;
         height: 155px;
     }
 
+    #house-cover {
+        height: 1270px;
+    }
+
+    .house-left, .house-right {
+        width: 400px;
+        font: 60%;
+        margin-bottom: 10px;
+        left: 60px;
+        float: none;
+    }
+
+    #house-grid-cover{
+        height: 1000px;
+    }
+
+    .crest {
+        width: 101px;
+        height: auto;
+        top: 50px;
+        right: 20px;
+    }
+
+    .house-left p, .house-right p {
+        width: 240px;
+    }
+    
     #images {
         column-count: 2;
     }
@@ -434,7 +490,6 @@ footer a:hover {
         left: 190px;
         font-size: 70%
     }
-
 }
 
 /* For small and mobile screen sizes from 600px wide and down */
@@ -473,12 +528,34 @@ footer a:hover {
 
     #left-about-us, #right-about-us {
         width: 100%;
-        float: none;
     }
 
-    #right-about-us aside {
-        height: auto;
-        width: auto;
+    #right-about-us {
+        padding: 10px;
+        height: 350px;
+        margin: auto;
+    }
+
+    #right-about-us aside, #right-about-us h2 {
+        margin-left: 180px;
+    }
+
+    #house-cover {
+        height: 1470px;
+    }
+
+    .house-left, .house-right {
+        width: 300px;
+    }
+
+    .house-left p, .house-right p {
+        width: 210px;
+        padding: 0;
+        font: 55%;
+    }
+
+    .crest {
+        width: 70px;
     }
 
     #images {
