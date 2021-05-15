@@ -496,11 +496,15 @@ footer a:hover {
 
 /* For small and mobile screen sizes from 600px wide and down */
 @media screen and (max-width: 600px) {
+    h1, h2, h3, #menu {
+        text-shadow: none;
+    }
+
     #logo {
-        font-size: 55%;
+        font-size: 100%;
+        
         line-height: 15px;
         letter-spacing: 2px;
-        text-shadow: none;
         height: 75px;
     }
 
