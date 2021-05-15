@@ -86,7 +86,7 @@ h1, h2, h3, #menu {
 }
 
 #hero-image {
-    background: url(../images/main_hall_hero.jpg) no-repeat center center;
+    background: url(../images/main-hall-hero.jpg) no-repeat center center;
     height: 600px;
     width: 100%;
     padding: 20px;
@@ -281,6 +281,7 @@ footer a:hover {
     line-height: 0;
     column-count: 4;
     column-gap: 0;
+    box-sizing: border-box;
 }
 
 #images > img {
@@ -344,6 +345,7 @@ footer a:hover {
 
 .large {
     height: 120px;
+    overflow: auto;
 }
 
 #contactus-form li {
