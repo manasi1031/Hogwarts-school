@@ -291,7 +291,7 @@ footer a:hover {
 
 /* Contact Us page */
 #contactus-image {
-    background: url(../images/magic_wand.jpg) no-repeat center center;
+    background: url(../images/magic-wand.jpg) no-repeat center center;
     height: 600px;
     width: 100%;
     padding: 20px;
@@ -304,16 +304,16 @@ footer a:hover {
     /* Animates zoom effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: backwards;
 }
 
 /* Creates the level of zoom for hero image */
 @keyframes hero-zoom {
     from {
-        transform: scale(1);
+        transform: scale(1.1);
     }
     to {
-        transform: scale(1.1);
+        transform: scale(1);
     }
 }
 
@@ -536,17 +536,16 @@ footer a:hover {
 @media screen and (max-width: 600px) {
     h1, h2, h3 {
         text-shadow: none;
-        font-size: 80%;
+        font-size: 110%;
     }
 
     #logo {
-        line-height: 2px;
         height: 75px;
-        font-size: 60%;
+        margin: 10px, 0, 10px, 0;
     }
 
     #logo img {
-        width: 80px;
+        width: 75px;
         margin-right: 0;
     }
 
@@ -556,20 +555,20 @@ footer a:hover {
     }
 
     #menu {
-        font-size: 50%;
         text-align: center;
         line-height: 10px;
         text-shadow: none;
     }
 
     #menu li {
-        margin: 0, 0, 8px, 0;
+        font-size: 65%;
+        margin: 0, 2px, 10px, 0;
         letter-spacing: 0;
     }
 
     #menu a:hover {
         border-bottom: 1px solid #67003E;
-        font-size: 55%;
+        font-size: 70%;
     }
 
     #hero-out, #hero-image {
@@ -578,17 +577,18 @@ footer a:hover {
 
     #cover-text {
         width: 230px;
-        height: 210px;
-        font-size: 75%;
+        height: 220px;
+        font-size: 80%;
         letter-spacing: 0;
     }
 
     .about-us {
-        height: 1320px;
+        height: 1175px;
+        width: 340px;
     }
 
     .about-us, #left-about-us {
-        width: 300px;
+        width: 340px;
     }
 
     #right-about-us {
@@ -602,32 +602,43 @@ footer a:hover {
     }
 
     #right-about-us iframe {    
-    width: 280px;
-    height: 180px;
+        width: 280px;
+        height: 180px;
     }
 
     #house-cover {
-        height: 1476px;
+        height: 1178px;
+    }
+
+    #house-grid-cover {
+        height: 768px;
+    }
+
+    .house-info {
+        height: 400px;
+        padding-bottom: 10px;
     }
 
     .house-left, .house-right {
         left: auto;
-        width: 300px;
+        width: 320px;
+        padding: 5px;
+        height: 180px;
     }
 
     .house-left p, .house-right p {
-        height: 180px;
-        width: 200px;
-        padding: 5px, 5px, 0, 0;
+        padding: 5px, 2px, 5px, 2px;
+        height: 160px;
+        width: 230px;
         font: 55%;
     }
 
     .crest {
         width: 75px;
-        right: 10px;
+        right: 5px;
         margin-left: 0px;
         margin-right: 0px;
-        top: 60px;
+        top: 50px;
     }
 
     #images {
@@ -639,16 +650,23 @@ footer a:hover {
     }
 
     #contactus-image {
-        margin-top: 100px;
+        margin-top: 120px;
         height: 560px;
     }
 
     #contactus-cover {
         top: 150px;
         width: 80%;
-        left: 60px;
-        font-size: 40%;
+        left: 32px;
+        font-size: 55%;
         height: 500px;
         
     }
+
+    #contactus-form select {
+        font-size: x-small;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+    
 }
