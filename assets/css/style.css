@@ -291,7 +291,7 @@ footer a:hover {
 
 /* Contact Us page */
 #contactus-image {
-    background: url(../images/letterhead.jpg) no-repeat center center;
+    background: url(../images/owl-post.jpg) no-repeat center center;
     height: 600px;
     width: 100%;
     padding: 20px;
@@ -318,8 +318,8 @@ footer a:hover {
     left: 310px;
     top: 325px;
     
-    background-color: rgba(41, 0, 1, 0.1);
-    color: white;
+    background-color: #00A3A0;
+    color: rgba(41, 0, 1, 1);
 }
 
 #top-section {
@@ -335,7 +335,7 @@ footer a:hover {
 
 .text-input {
     background: transparent;
-    color: White;
+    color: rgba(41, 0, 1, 1);
     width: 50%;
     height: 30px;
     margin: 5px 0 10px 0;
@@ -376,6 +376,7 @@ footer a:hover {
 
 #submit-button:hover {
     font-size: 1.45rem;
+    background-color: #E22B60;
     border: 3px double #67003E;
 }
 
@@ -438,7 +439,7 @@ footer a:hover {
     }
 
     #logo img {
-        width: 100px;
+        width: 110px;
         padding: 0;
     }
 
@@ -449,15 +450,16 @@ footer a:hover {
 
     #cover-text {
         font-size: 80%;
-        height: 200px;
+        height: 220px;
     }
 
     .about-us {
         width: 580px;
+        height: 770px;
     }
 
-    #right-about-us, #right-about-us {  
-        padding-bottom: 0;
+    #left-about-us, #right-about-us {  
+        padding-bottom: 10px;
         height: 738px;
     }
 
@@ -465,17 +467,19 @@ footer a:hover {
         width: 190px;
     }
 
-    .house-info {
-        padding-top: 0;
-    }
-
     #house-cover {
         height: 1270px;
+    }
+
+    .house-info {
+        padding-top: 0;
+        height: 220px;
     }
 
     .house-left, .house-right {
         left: 0px;
         width: 540px;
+        height: 160px;
         font: 60%;
         margin-bottom: 10px;
         left: 60px;
@@ -489,13 +493,13 @@ footer a:hover {
     .crest {
         height: auto;        
         width: 150px;
-        right: 30px;
-        top: 30px;
+        right: 20px;
+        top: 10px;
 
     }
 
     .house-left p, .house-right p {
-        width: 300px;
+        width: 350px;
         padding-top: 20px;
     }
     
@@ -521,9 +525,9 @@ footer a:hover {
     }
 
     #logo {
-        line-height: 1px;
+        line-height: 2px;
         height: 75px;
-        font-size: 80%;
+        font-size: 60%;
     }
 
     #logo img {
@@ -531,33 +535,41 @@ footer a:hover {
         margin-right: 0;
     }
 
+    #logo h1 {
+        height: 60px;
+        line-height: 20px;
+    }
+
     #menu {
-        font-size: 55%;
+        font-size: 50%;
         text-align: center;
-        line-height: 8px;
+        line-height: 10px;
         text-shadow: none;
     }
 
     #menu li {
-        float: center;
-        margin-bottom: 8px;
+        margin: 0, 0, 8px, 0;
+        letter-spacing: 0;
+    }
+
+    #menu a:hover {
+        border-bottom: 1px solid #67003E;
+        font-size: 55%;
     }
 
     #hero-out, #hero-image {
         height: 360px;
     }
 
-    #hero-image {
-        background: url(../images/school.jpg) no-repeat center center;
-    }
-
     #cover-text {
         width: 230px;
         height: 210px;
+        font-size: 75%;
+        letter-spacing: 0;
     }
 
     .about-us {
-        height: 920px;
+        height: 1320px;
     }
 
     .about-us, #left-about-us {
@@ -565,7 +577,8 @@ footer a:hover {
     }
 
     #right-about-us {
-        height: 350px;
+        height: 400px;
+        width: 100%;
     }
 
     #right-about-us h2, #right-about-us aside {    
@@ -589,12 +602,13 @@ footer a:hover {
 
     .house-left p, .house-right p {
         height: 180px;
-        padding-top: 10px;
+        width: 200px;
+        padding: 5px, 5px, 0, 0;
         font: 55%;
     }
 
     .crest {
-        width: 80px;
+        width: 75px;
         right: 10px;
         margin-left: 0px;
         margin-right: 0px;
