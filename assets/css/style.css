@@ -291,15 +291,30 @@ footer a:hover {
 
 /* Contact Us page */
 #contactus-image {
-    background: url(../images/owl-post.jpg) no-repeat center center;
+    background: url(../images/magic_wand.jpg) no-repeat center center;
     height: 600px;
     width: 100%;
     padding: 20px;
-    opacity: 0.6;
+    opacity: 0.5;
     vertical-align: middle;
  
     margin-top: 250px;
     position: relative;
+
+    /* Animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* Creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
 
 #contactus-cover {
@@ -318,8 +333,8 @@ footer a:hover {
     left: 310px;
     top: 325px;
     
-    background-color: #rgb(227,197,44, 0.6);
-    color: rgba(41, 0, 1, 1);
+    background-color: rgba(255, 212, 212, 0.6);
+    color: #0F0C00;
 }
 
 #top-section {
@@ -468,7 +483,7 @@ footer a:hover {
     }
 
     #house-cover {
-        height: 1270px;
+        height: 980px;
     }
 
     .house-info {
