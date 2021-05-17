@@ -76,9 +76,10 @@ h1, h2, h3, #menu {
 }
 
 /* Hero Image Stylying */
+
 #hero-out {
     height: 600px;
-    max-width: 100%;
+    width: 100%;
     overflow: hidden;
 
     position: relative;
@@ -394,8 +395,43 @@ footer a:hover {
     border: 3px double #67003E;
 }
 
-/* media queries */
+/* 404 Error Page */
+#error-out {
+    height: 600px;
+    max-width: 100%;
+    overflow: hidden;
 
+    position: relative;
+}
+
+#error-image {
+    background: url(../images/main-hall-hero.jpg) no-repeat center center;
+    height: 600px;
+    width: 100%;
+    padding: 20px;
+}
+
+#error-text {
+    font-size: 100%;
+    font-family: ubuntu, sans-serif;
+    letter-spacing: 2px;
+    text-align: justify;
+
+    width: 350px;
+    height: 300px;
+
+    padding: 10px;
+    
+    background-color: rgba(255, 212, 212, 0.6);
+    color: #0F0C00;
+
+    top: 80px;
+    right: 80px;
+    
+    position: absolute;
+}
+
+/* media queries */
 /* for larger to medium screens size from 1200 px wide and down */
 @media screen and (max-width: 1200px) {
     #logo {
