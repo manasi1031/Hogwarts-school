@@ -398,14 +398,17 @@ footer a:hover {
 /* 404 Error Page */
 #error-out {
     height: 600px;
-    max-width: 100%;
+    width: 100%;
     overflow: hidden;
 
     position: relative;
+    
+    margin-top: 250px;
+    height: 600px;
 }
 
 #error-image {
-    background: url(../images/main-hall-hero.jpg) no-repeat center center;
+    background: url(../images/broken-wand.png) no-repeat center center;
     height: 600px;
     width: 100%;
     padding: 20px;
