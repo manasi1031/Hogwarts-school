@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     border: none;
-
 }
 
 body {
@@ -79,7 +78,7 @@ h1, h2, h3, #menu {
 /* Hero Image Stylying */
 #hero-out {
     height: 600px;
-    width: 100%;
+    max-width: 100%;
     overflow: hidden;
 
     position: relative;
@@ -87,8 +86,9 @@ h1, h2, h3, #menu {
 
 #hero-image {
     background: url(../images/main-hall-hero.jpg) no-repeat center center;
+    background-size: contain;
     height: 600px;
-    width: 100%;
+    max-width: 100%;
     padding: 20px;
 
     /* Animates zoom effect on loading page */
@@ -132,6 +132,7 @@ h1, h2, h3, #menu {
     height: 470px;
     width: 100%;
     padding: 10px;
+    box-sizing: border-box;
 }
 
 hr {
@@ -144,7 +145,6 @@ aside iframe {
     height: 200px;
     border: 1px groove #751800;
     margin-top: 30px;
-
 }
 
 #left-about-us {
@@ -279,19 +279,28 @@ footer a:hover {
 /* Gallery Style - not complete */
 #images {
     clear: both;
+    display: block;
     line-height: 0;
-    column-count: 4;
+    column-count: 3;
     column-gap: 0;
     box-sizing: border-box;
+    display: block;
 }
 
 #images > img {
-    width: 100%;
+    max-width: 100%;
+    padding: 8px;
+    object-fit: contain;
+}
+
+#images > img:hover{
+    opacity: 1
 }
 
 /* Contact Us page */
 #contactus-image {
     background: url(../images/magic-wand.jpg) no-repeat center center;
+    background-size: contain;
     height: 600px;
     width: 100%;
     padding: 20px;
@@ -362,6 +371,7 @@ footer a:hover {
 .large {
     height: 120px;
     overflow: auto;
+    resize: both;
 }
 
 #contactus-form li {
