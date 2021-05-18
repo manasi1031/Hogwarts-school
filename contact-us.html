@@ -58,9 +58,9 @@
             </div>
 
             <div id="contactus-form">
-                <form method="POST" action="https://formdump.codeinstitute.net/">
+                <form method="POST">
                     <h2>Contact Us</h2>
-                    <ul class="">
+                    <ul>
                         <li>
                             <label for="fname">Full Name</label>
                         </li>
@@ -77,14 +77,13 @@
                             <label for="message" id="large">Message</label>
                         </li>
                         <li>
-                            <input type="text" id="message" name="message" required class="text-input large">
+                            <textarea required placeholder="Please add message here...."></textarea>
                         </li>
                         <li>
-                            <label for="v-type">Visitor</label>
+                            <label for="visitor">Visitor</label>
                         </li>
                         <li>
-                            <select name="visitor" required>
-                                <option>(Blank - Choose one of below)</option>
+                            <select name="visitor" placeholder="Blank-Choose one of below" required>
                                 <option>Parent of Child Studying at School</option>
                                 <option>Parent of Child to begin Study at School</option>
                                 <option>Parent of Child Interested in Study at School</option>
@@ -92,23 +91,23 @@
                             </select>
                         </li>
                         <li>
-                            <label for="school_house">School House Name: (select any one)</label>
+                            <label for="house">School House Name: (select one)</label>
                         </li>
                         <li>
                             <label for="gryffindor">Gryffindor</label>
-                            <input type="radio" id="gryffindor" name="school_house" value="gryffindor" required>
+                            <input type="radio" id="gryffindor" name="house" value="gryffindor" required>
                         
                             <label for="slythrin">Slythrin</label>
-                            <input type="radio" id="slythrin" name="school_house" value="slythrin">
+                            <input type="radio" id="slythrin" name="house" value="slythrin">
             
                             <label for="ravenclaw">Ravenclaw</label>
-                            <input type="radio" id="ravenclaw" name="school_house" value="ravenclaw">
+                            <input type="radio" id="ravenclaw" name="house" value="ravenclaw">
 
                             <label for="hufflepuff">Hufflepuff</label>
-                            <input type="radio" id="hufflepuff" name="school_house" value="hufflepuff">
+                            <input type="radio" id="hufflepuff" name="house" value="hufflepuff">
 
                             <label for="none">None</label>
-                            <input type="radio" id="none" name="school_house" value="none">
+                            <input type="radio" id="none" name="house" value="none">
                         </li>
                         <li>
                             <input type="submit" value="Submit" id="submit-button">
