@@ -273,14 +273,10 @@ footer {
     color:#0F0C00;
 }
 
-footer a:hover {
-    border: 1px solid #67003E;
-}
-
 /* Gallery Style */
 #gallery-cover {
     width: 100%;
-    height: 1450px;
+    height: 675px;
     margin-top: 220px;
 }
 
