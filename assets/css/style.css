@@ -270,14 +270,20 @@ footer {
     font-size: 150%;
     margin: 2%;
     padding: 5%;
-    color: black;
+    color:#0F0C00;
 }
 
 footer a:hover {
-    border: 1px solid black;
+    border: 1px solid #67003E;
 }
 
 /* Gallery Style */
+#gallery-cover {
+    width: 100%;
+    height: 1450px;
+    margin-top: 220px;
+}
+
 .responsive {
     padding: 0 6px;
     float: left;
@@ -286,7 +292,7 @@ footer a:hover {
   }
 
 div.gallery {
-    border: 1px solid #ccc;
+    border: 1px solid #751800;
   }
   
 div.gallery img {
@@ -297,10 +303,12 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
+    color: inherit;
+    font-style: inherit;
   }
 
 div.gallery:hover {
-    border: 1px solid black;
+    border: 1px solid #67003E;
   }
   
 /* Contact Us page */
@@ -395,7 +403,7 @@ div.gallery:hover {
 
 #submit-button {
     font-family: inherit;
-    border: 3px double #A40002;
+    border: 3px double #751800;
     color: #A40002;
     font-size: 1.25rem;
     margin-top: 10px;
@@ -508,9 +516,6 @@ div.gallery:hover {
         display: none;
     }
 
-    #images {
-        column-count: 3;
-    }
 }
 
 /* For medium screen sizes from 950px wide and down */
@@ -587,9 +592,10 @@ div.gallery:hover {
         padding-top: 10px;
     }
     
-    #images {
-        column-count: 2;
-    }
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+      }
 
     footer {
         font-size: 70%
@@ -711,8 +717,14 @@ div.gallery:hover {
         top: 50px;
     }
 
-    #images {
-        column-count: 1;
+    .responsive {
+        width: 100%;
+      }
+    
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
     }
 
     footer {
