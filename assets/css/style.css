@@ -43,7 +43,14 @@ h1, h2, h3, #menu {
     width: 175px;
     float: left;
     margin-right: 40px;
+}
 
+#logo li {
+    width: 75px;
+}
+
+#logo img {
+    width: 175px;
 }
 
 #menu {
@@ -470,7 +477,7 @@ div.gallery:hover {
 }
 
 /* media queries */
-/* for larger to medium screens size from 1200 px wide and down */
+/* for larger to medium-large screens size from 1200 px wide and down */
 @media screen and (max-width: 1200px) {
     #logo {
         font-size: 180%;
@@ -505,7 +512,7 @@ div.gallery:hover {
     }
 
     .house-left p, .house-right p {
-        width: 240px;
+        width: 250px;
     }
 
     hr {
@@ -514,18 +521,16 @@ div.gallery:hover {
 
 }
 
-/* For medium screen sizes from 950px wide and down */
+/* For medium-large to medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
     #logo {
-        font-size: 125%;
-        margin-right: 0;
+        font-size: 160%;
         height: 140px;
-        line-height: 20px;
+        line-height: 40px;
     }
 
     #logo img {
-        width: 110px;
-        padding: 0;
+        width: 140px;
     }
 
     #hero-out, #hero-image {
@@ -549,7 +554,7 @@ div.gallery:hover {
     }
 
     #right-about-us iframe {
-        width: 190px;
+        width: auto;
     }
 
     #house-cover {
@@ -588,22 +593,40 @@ div.gallery:hover {
         padding-top: 10px;
     }
     
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-      }
-
     footer {
         font-size: 70%
     }
 
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+      }
+    
+}
+
+/* For Tablets/Ipads and large mobile screen sizes from 750px wide and down */
+@media screen and (max-width: 750px) {
+    #logo {
+        font-size: 130%;
+        height: 130px;
+    }
+
+    #logo img {
+        width: 140px;
+    }
+
+    #cover-text {
+        left: 40%;
+        transform: translate(0, -30%);
+    }
+
+    
     #contactus-cover {
-        left: 190px;
-        font-size: 70%;
+        width: auto;
     }
 }
 
-/* For small and mobile screen sizes from 600px wide and down */
+/* For medium mobile screen sizes from 600px wide and down */
 @media screen and (max-width: 600px) {
     h1, h2, h3 {
         text-shadow: none;
@@ -747,4 +770,9 @@ div.gallery:hover {
         margin-top: 5px;
     }
     
+/* For small mobile screen sizes from 450px wide and down */
+@media screen and (max-width: 450px) {
+
+    }
+
 }
