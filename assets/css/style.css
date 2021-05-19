@@ -371,7 +371,7 @@ div.gallery:hover {
     opacity: 1;
 }
 
-.large {
+#large {
     height: 120px;
     overflow: auto;
 }
@@ -439,7 +439,7 @@ div.gallery:hover {
     letter-spacing: 2px;
     text-align: center;
 
-    width: 100%;
+    width: auto;
     height: 300px;
 
     padding: 10px;
@@ -616,9 +616,16 @@ div.gallery:hover {
         transform: translate(0, -30%);
     }
 
+    #gallery-cover {
+        height: 1300px;
+    }
     
     #contactus-cover {
         width: auto;
+    }
+
+    #error-text {
+        font-size: 90%;
     }
 }
 
@@ -743,13 +750,17 @@ div.gallery:hover {
       clear: both;
     }
 
+    #gallery-cover {
+        margin-top: 120px;
+    }
+
     footer {
         font-size: 60%
     }
 
     #contactus-image {
         margin-top: 120px;
-        height: 560px;
+        height: 450px;
     }
 
     #contactus-cover {
@@ -758,7 +769,7 @@ div.gallery:hover {
         left: 32px;
         font-size: 55%;
         height: 500px;
-        
+        transform: translate(5%, -5%);    
     }
 
     #contactus-form select {
@@ -800,5 +811,9 @@ div.gallery:hover {
     .crest {
         right: 100px;
         top: 160px;
+    }
+
+    #error-text {
+        font-size: 80%;
     }
 }
