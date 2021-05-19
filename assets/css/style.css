@@ -45,10 +45,6 @@ h1, h2, h3, #menu {
     margin-right: 40px;
 }
 
-#logo li {
-    width: 75px;
-}
-
 #logo img {
     width: 175px;
 }
@@ -86,7 +82,7 @@ h1, h2, h3, #menu {
 /* Hero Image Stylying */
 
 #hero-out {
-    height: 600px;
+    height: 660px;
     width: 100%;
     overflow: hidden;
 
@@ -95,7 +91,7 @@ h1, h2, h3, #menu {
 
 #hero-image {
     background: url(../images/main-hall-hero.jpg) no-repeat center center;
-    height: 600px;
+    height: 660px;
     width: 100%;
 
     /* Animates zoom effect on loading page */
@@ -581,7 +577,7 @@ div.gallery:hover {
     }
 
     .crest {
-        height: auto;        
+        height: inherit;        
         width: 130px;
         right: 20px;
         top: 10px;
@@ -682,8 +678,8 @@ div.gallery:hover {
     }
 
     .about-us, #left-about-us {
-        width: 300px;
-        height: 850px;
+        width: auto;
+        height: auto;
     }
 
     #right-about-us {
@@ -697,12 +693,12 @@ div.gallery:hover {
     }
 
     #right-about-us iframe {    
-        width: 280px;
+        width: auto;
         height: 180px;
     }
 
     #house-cover {
-        height: 1365px;
+        height: 1250px;
     }
 
     #house-grid-cover {
@@ -729,7 +725,8 @@ div.gallery:hover {
     }
 
     .crest {
-        width: 75px;
+        height: auto;
+        width: 100px;
         right: 5px;
         margin-left: 0px;
         margin-right: 0px;
@@ -769,10 +766,39 @@ div.gallery:hover {
         margin-bottom: 10px;
         margin-top: 5px;
     }
+}
     
 /* For small mobile screen sizes from 450px wide and down */
 @media screen and (max-width: 450px) {
-
+    #logo {
+        font-size: 100%;
     }
 
+    #cover-text {
+        left: 10%;
+    } 
+
+    #house-cover {
+        height: 1700px;
+    }
+
+    #house-grid-cover {
+        height: 1200px;
+    }
+
+    .house-right, .house-left {
+        height: 280px;
+        width: 300px;
+    }
+
+    .house-right p, .house-left p {
+        padding: 5px;
+        height: 160px;
+        width: 280px;
+    }
+
+    .crest {
+        right: 100px;
+        top: 160px;
+    }
 }
