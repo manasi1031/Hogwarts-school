@@ -2,7 +2,7 @@
 ---------
 # Hogwarts School of Witchcraft and Wizardry
 
-Insert landing page image
+![Mockup Image](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/mockup.jpg)
 
 ## Purpose
 ---
@@ -122,7 +122,21 @@ Colors chosen are either direct colors or in the palette shades to give a better
 
 I used balsamiq to create wireframes for this project.
 
-[Click here to view wireframes](add)
+- [Laptop view of Home page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/home-laptop-view.jpg)
+
+- [Ipad view of Home page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/home-ipad-view.jpg)
+
+- [Mobile view of Home page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/home-mobile-view.jpg)
+
+- [Laptop view of Gallery page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/gallery-laptop-view.jpg)
+
+- [Ipad view of Gallery page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/gallery-ipad-view.jpg)
+
+- [Mobile view of Gallery page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/gallery-mobile-view.jpg)
+
+- [Contact us page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/contact-us-page.jpg)
+
+- [404 Error page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/404-error.jpg)
 
 #### Images
 
@@ -194,6 +208,8 @@ Languages used:
 - HTML Validator: Used for validating HTML code.
 
 - CSS Validator: Used for validating CSS code.
+
+- [Techsini website](https://techsini.com/) to create a visual mockup of the site.
 
 [Back to Table of Contents](##-Table-of-Contents)
 
