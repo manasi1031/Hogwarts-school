@@ -2,7 +2,7 @@
 ---------
 # Hogwarts School of Witchcraft and Wizardry
 
-![Mockup Image](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/mockup.jpg)
+![Mockup Image](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/mockup.jpg)
 
 ## Purpose
 ---
@@ -122,21 +122,21 @@ Colors chosen are either direct colors or in the palette shades to give a better
 
 I used balsamiq to create wireframes for this project.
 
-- [Laptop view of Home page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/home-laptop-view.jpg)
+- [Laptop view of Home page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/home-laptop-view.jpg)
 
-- [Ipad view of Home page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/home-ipad-view.jpg)
+- [Ipad view of Home page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/home-ipad-view.jpg)
 
-- [Mobile view of Home page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/home-mobile-view.jpg)
+- [Mobile view of Home page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/home-mobile-view.jpg)
 
-- [Laptop view of Gallery page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/gallery-laptop-view.jpg)
+- [Laptop view of Gallery page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/gallery-laptop-view.jpg)
 
-- [Ipad view of Gallery page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/gallery-ipad-view.jpg)
+- [Ipad view of Gallery page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/gallery-ipad-view.jpg)
 
-- [Mobile view of Gallery page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/gallery-mobile-view.jpg)
+- [Mobile view of Gallery page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/gallery-mobile-view.jpg)
 
-- [Contact us page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/contact-us-page.jpg)
+- [Contact us page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/contact-us-page.jpg)
 
-- [404 Error page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/404-error.jpg)
+- [404 Error page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/404-error.jpg)
 
 #### Images
 
@@ -264,8 +264,42 @@ Note: No errors were received.
 
 #### Issues found during deployment:
 
-Add here
+As this was my first project, I have been rectifying changes as I see, however, there were 3 crucial issues that I had to work with.
 
+- Logo and header responsiveness for mobile.
+
+![Logo CSS error on mobile](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/logo-css-small-mobile.jpg)
+
+- I had the same issue with the responsiveness for the mobiles, as I had originally planned for max widths of 1200px, 950px and 600px respectively. This made an issue with the smaller widths of 300-450px as they did not view well on the mobiles.
+- To avoid this situation and with guidance from my mentor, I changed the max-widths to 1200px, 950px, 750px, 600px and 450px.
+- Once I implemented the changes the views changed dramatically overall. However, this error was the stepping stone for this major change.
+- The code for this scenario changed as below:
+    - Max-width: 450px - font-size: 90%
+    - Max-width: 600px - height: 75px and margin: 10px 0 10px 0
+    - Max-width: 750px - font-size: 130% and height: 130px
+    - Max-width: 950px - font-size: 160%, line-height: 40px and height: 140px
+    - Max-width: 1200px - font-size: 180% and margin-right: 0
+
+This has changed the look as shown on the mockup and has become responsive.
+
+- Home page welcome note issue on the hero-image.
+
+![text Cover Error](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/text-cover-error.jpg)
+
+I then added the following CSS rules as below:
+- Max-width: 450px for #cover-text with left: 10% and width: 250px;
+- Max-width: 750px for #cover-text with left: 20% and transform: translate(0, -30%)
+- Max-width: 950px for #cover-text with font-size: 80%, height: 220px, left: 30% and transform: translate(-10%, -30%);
+
+This has changed the look as shown on the mockup and has become responsive.
+
+- Gallery Page
+
+Unfortunately I did not remember to take an image of the Old version of the Gallery page. However, it was images all spread around the page and not aligned. I then tried to use the Masonary style from the Love Running project, but that too did not work out.
+
+Finally I referred to the W3schools gallery responsive section and used this as the basis of my code. Its still not how I would prefer to have it final, however atleast it looks in a line formation. 
+
+![New Gallery view](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/newgalleryview.jpg)
 
 [Back to Table of Contents](##-Table-of-Contents)
 
@@ -356,13 +390,13 @@ Last but not the least, I would like to thank [Code Institute](https://codeinsti
 
 ## Screen Shots
 
-![Laptop View Home Page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/laptop-home-page.jpg)
+![Laptop View Home Page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/laptop-home-page.jpg)
 
-![Laptop View Gallery Page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/laptop-gallery-page.jpg)
+![Laptop View Gallery Page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/laptop-gallery-page.jpg)
 
-![Laptop View Contact Us Page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/laptop-contactus-page.jpg)
+![Laptop View Contact Us Page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/laptop-contactus-page.jpg)
 
-![Laptop View 404 Error Page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/laptop-404-error-page.jpg)
+![Laptop View 404 Error Page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/laptop-404-error-page.jpg)
 
 [Back to Table of Contents](##-Table-of-Contents)
 
