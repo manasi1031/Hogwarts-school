@@ -25,29 +25,29 @@ Enjoy the magical journey!
 
 ## Table of Contents
 ---
-- [UX](##-UX)
-    - [Goals](###-Goals)
-        - [Vision](####-Vision)
-        - [Aim](####-Aim)
-        - [Target Audience](####-Target-Audience)
-        - [User Stories](####-User-Stories)
-    - [Structure of the Website](###=Structure-of-the-website)
-        - [Design](####-Design)
-        - [Typography](####-Typography)
-        - [Color Scheme](####-Color-Scheme)
-        - [Wireframes](####-Wireframes)
-        - [Images](####-Images)
-- [Features](##-Features)
-- [Technologies Used](##-Technologies-Used)
-- [Testing](##-Testing)
-    - [Functionality Testing](###-Functionality-Testing)
-    - [Compatibility Testing](###-Compatibility-Testing)
-    - [User Testing Stories](###-User-Testing-Stories)
-    - [Code Validation](###-Code-Validation)
-    - [Issues found during deployment](###-Issues-found-during-deployment)
-- [Deployment](##-Deployment)
-- [Credits](##-Credits)
-- [Screen Shots](##-Screen-Shots)
+- [UX](#-ux)
+    - [Goals](#goals)
+        - [Vision](#vision)
+        - [Aim](#aim)
+        - [Target Audience](#target-audience)
+        - [User Stories](#user-stories)
+    - [Structure of the Website](#=structure-of-the-website)
+        - [Design](#design)
+        - [Typography](#typography)
+        - [Color Scheme](#color-scheme)
+        - [Wireframes](#wireframes)
+        - [Images](#images)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+    - [Functionality Testing](#functionality-testing)
+    - [Compatibility Testing](#compatibility-testing)
+    - [User Testing Stories](#user-testing-stories)
+    - [Code Validation](#code-validation)
+    - [Issues found during deployment](#issues-found-during-deployment)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Screen Shots](#screen-shots)
 
 ---------
 ## UX
@@ -88,7 +88,7 @@ My aim is to provide data relevant to the user story and enhance the overall vis
 
 - As a frequent visitor, I want to see any updated newsletters during school year. 
 
-[Back to Table of Contents](##-Table-of-Contents)
+[Back to Table of Contents](#table-of-contents)
 
 ----------
 ### Structure of the website
@@ -142,7 +142,7 @@ I used balsamiq to create wireframes for this project.
 
 Due to the complexity of the subject, I had very little images to source that were free to use. However, I have mentioned in detail regarding this in the credits section.
 
-[Back to Table of Contents](##-Table-of-Contents)
+[Back to Table of Contents](#table-of-contents)
 
 --------
 
@@ -179,7 +179,7 @@ The website consists of 4 pages. Three are accessible from a navigation menu and
 - I want to add page which has information about subjects taught and who their respective professors are.
 - I want to add a page outlining vacancies for future roles that may be available in the school for job purposes.
 
-[Back to Table of Contents](##-Table-of-Contents)
+[Back to Table of Contents](#table-of-contents)
 
 -------
 ### Technologies Used
@@ -211,7 +211,7 @@ Languages used:
 
 - [Techsini website](https://techsini.com/) to create a visual mockup of the site.
 
-[Back to Table of Contents](##-Table-of-Contents)
+[Back to Table of Contents](#table-of-contents)
 
 --------
 
@@ -301,7 +301,7 @@ Finally I referred to the W3schools gallery responsive section and used this as 
 
 ![New Gallery view](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/newgalleryview.jpg)
 
-[Back to Table of Contents](##-Table-of-Contents)
+[Back to Table of Contents](#table-of-contents)
 
 ----------
 
@@ -324,7 +324,7 @@ The project was deployed on GitHub Pages. I used Gitpod as a development environ
 
 Alternatively you can [Clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github) or [Fork](https://docs.github.com/en/github/getting-started-with-github/quickstart/fork-a-repo) this repository ([Hogwarts-school](https://github.com/manasi1031/Hogwarts-school)) into your github account.
 
-[Back to Table of Contents](##-Table-of-Contents)
+[Back to Table of Contents](#table-of-contents)
 
 -------
 
@@ -384,7 +384,7 @@ I could not have done this project without the guidance and confidence of my men
 
 Last but not the least, I would like to thank [Code Institute](https://codeinstitute.net/) for giving me this chance to learn and understand something.
 
-[Back to Table of Contents](##-Table-of-Contents)
+[Back to Table of Contents](#table-of-contents)
 
 ------
 
@@ -398,6 +398,6 @@ Last but not the least, I would like to thank [Code Institute](https://codeinsti
 
 ![Laptop View 404 Error Page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/laptop-404-error-page.jpg)
 
-[Back to Table of Contents](##-Table-of-Contents)
+[Back to Table of Contents](#table-of-contents)
 
 ------
