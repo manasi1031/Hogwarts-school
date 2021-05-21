@@ -253,13 +253,15 @@ aside iframe {
 /* Footer */
 
 footer {
-    height: 100px;
     position: static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
 }
 
 .social-media {
     text-align: center;
-    height: 100px;
 }
 
 .social-media li {
@@ -273,9 +275,9 @@ footer {
 
 .social-media i {
     font-size: 150%;
-    margin: 2%;
-    padding: 5%;
-    color:#0F0C00;
+    margin: 1%;
+    padding: 2%;
+    color: #0F0C00;
 }
 
 /* Gallery Style */
@@ -482,7 +484,7 @@ div.gallery:hover {
         font-size: 90%;
     }
 
-    #left-about-us, right-about-us {
+    #left-about-us, #right-about-us {
         padding: 30px 10px;
     }
 
@@ -565,10 +567,6 @@ div.gallery:hover {
         width: 350px;
         padding-top: 10px;
     }
-    
-    footer {
-        font-size: 70%
-    }
 
     .responsive {
         width: 49.99999%;
@@ -589,7 +587,7 @@ div.gallery:hover {
         transform: translate(0, -30%);
     }
     
-    #left-about-us, right-about-us {
+    #left-about-us, #right-about-us {
         Float: none;
         max-width: 100%;
     }
@@ -696,10 +694,6 @@ div.gallery:hover {
 
     #gallery-cover {
         margin-top: 120px;
-    }
-
-    footer {
-        font-size: 60%
     }
 
     #contactus-image {
