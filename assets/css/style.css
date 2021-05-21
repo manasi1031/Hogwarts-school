@@ -319,16 +319,17 @@ div.gallery:hover {
 /* Contact Us page */
 #contactus-out {
     height: auto;
-    width: 100%;
-    overflow: hidden;
+    max-width: 100%;
     position: relative;
 }
+
 #contactus-image {
     background: url(../images/hogwart-owl-night.jpg) no-repeat center center;
+    margin-top: 250px;
     height: 660px;
     max-width: 100%;
     opacity: .5;
-    background-size: contain;
+    background-size: cover;
 }
 
 #contactus-cover {
@@ -345,9 +346,11 @@ div.gallery:hover {
     background-color: rgba(255, 212, 212, 0.6);
     color: #0F0C00;
 
-    top: 50%;
-    left: 50%;
-    transform: translate(5%, -25%);
+    transform: translate(10%, 10%);
+    top: 30%;
+    left: 5%;
+
+    background-position: center;
     position: absolute;
 }
 
