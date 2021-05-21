@@ -145,7 +145,7 @@ hr {
 }
 
 aside iframe {
-    width: 90%;
+    width: 100%;
     height: auto;
     border: 1px groove #751800;
     margin-top: 30px;
@@ -589,6 +589,11 @@ div.gallery:hover {
         transform: translate(0, -30%);
     }
     
+    #left-about-us, right-about-us {
+        Float: none;
+        max-width: 100%;
+    }
+
     div.gallery img {
         height: 300px;
     }
@@ -651,31 +656,6 @@ div.gallery:hover {
         height: 220px;
         font-size: 80%;
         letter-spacing: 0;
-    }
-
-    .about-us {
-        height: 1290px;
-        width: 300px;
-    }
-
-    .about-us, #left-about-us {
-        width: auto;
-        height: auto;
-    }
-
-    #right-about-us {
-        height: 400px;
-        width: 100%;
-    }
-
-    #right-about-us h2, #right-about-us aside {    
-        margin-left: 0px;
-        padding-left: 20px;
-    }
-
-    #right-about-us iframe {    
-        width: auto;
-        height: 180px;
     }
 
     .house-info {
