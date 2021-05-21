@@ -19,8 +19,6 @@ Enjoy the magical journey!
 
 ## [View live website here](https://manasi1031.github.io/Hogwarts-school/index.html) 
 
-## [View repository here](https://github.com/manasi1031/Hogwarts-school)
-
 ---------
 
 ## Table of Contents
@@ -54,7 +52,7 @@ Enjoy the magical journey!
 ---
 ### Goals
 ---
-The main Reason to create this website if for parents and children and people interested to know more about the school during the Coronavirus situation. Hogwarts cannot use OWL post or let parents come and see the school. This is a safe and secure way to do so.
+The main reason to create this website is for parents and children and people interested to know more about the school during the Coronavirus situation. Hogwarts cannot use OWL post or let parents come and see the school. This is a safe and secure way to do so.
 
 #### Vision 
 

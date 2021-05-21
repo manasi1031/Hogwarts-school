@@ -462,16 +462,6 @@ div.gallery:hover {
     height: 75px;
 }
 
-#error-text nav {
-    font-size: 2rem;
-    height: 50px;
-}
-
-#error-text a:hover {
-    border-bottom: 1px solid #67003E;
-    font-size: 110%;
-}
-
 /* media queries */
 /* for larger to medium-large screens size from 1200 px wide and down */
 @media screen and (max-width: 1200px) {
