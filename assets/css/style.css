@@ -317,35 +317,38 @@ div.gallery:hover {
   }
   
 /* Contact Us page */
-#contactus-image {
-    height: 525px;
+#contactus-out {
+    height: auto;
     width: 100%;
-    padding: 20px;
-    opacity: 0.5;
-    vertical-align: middle;
- 
-    margin-top: 250px;
+    overflow: hidden;
     position: relative;
+}
+#contactus-image {
+    background: url(../images/hogwart-owl-night.jpg) no-repeat center center;
+    height: 660px;
+    max-width: 100%;
+    opacity: .5;
+    background-size: contain;
 }
 
 #contactus-cover {
+    font-size: 100%;
     font-family: ubuntu, sans-serif;
     letter-spacing: 2px;
-    
-    vertical-align: middle;
-    background: url(../images/magic-wand.jpg) no-repeat center center;
-    opacity: 0.7;
-    height: 590px;
-    width: 740px;
-    padding: 0;
-    margin: 20px 0 0 0;
+    text-align: justify;
 
-    position: absolute;
-    transform: translate(-50%, -50%);    
-    top: 510px;
-    left: 50%;
+    width: 350px;
+    height: 300px;
+
+    padding: 10px;
     
+    background-color: rgba(255, 212, 212, 0.6);
     color: #0F0C00;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(5%, -25%);
+    position: absolute;
 }
 
 #top-section {
@@ -509,7 +512,7 @@ div.gallery:hover {
     }
 
     #gallery-cover {
-        height: 1800px;
+        height: 2500px;
     }
 
     .responsive {
@@ -573,7 +576,7 @@ div.gallery:hover {
     }
 
     #gallery-cover {
-        height: 1850px;
+        height: 2550px;
     }
 
     .responsive {
