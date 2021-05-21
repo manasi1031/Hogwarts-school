@@ -346,9 +346,9 @@ div.gallery:hover {
     background-color: rgba(255, 212, 212, 0.6);
     color: #0F0C00;
 
-    transform: translate(10%, 10%);
-    top: 30%;
-    left: 5%;
+    transform: translate(0, 10%);
+    top: 300px;
+    left: 50px;
 
     background-position: center;
     position: absolute;
@@ -364,7 +364,7 @@ div.gallery:hover {
 
 #contactus-form {
     font-size: 100%;
-    height: 450px;
+    height: auto;
     text-align: center;
     list-style-type: none;
     opacity: 1;
@@ -469,7 +469,7 @@ div.gallery:hover {
 
 #error-text img {
     height: auto;
-    width: 100%;
+    max-width: 100%;
 }
 
 
@@ -521,6 +521,10 @@ div.gallery:hover {
     .responsive {
         width: 49.9999%;
     }
+
+    #contactus-cover {
+        left: 0;
+    }
 }
 
 /* For medium-large to medium screen sizes from 950px wide and down */
@@ -561,7 +565,6 @@ div.gallery:hover {
         width: 130px;
         right: 20px;
         top: 10px;
-
     }
 
     .house-left, .house-right {
@@ -616,10 +619,6 @@ div.gallery:hover {
 
     div.desc {
         padding: 10px;
-    }
-
-    #contactus-cover {
-        width: 600px;
     }
 
     #error-text {
@@ -724,12 +723,8 @@ div.gallery:hover {
     }
 
     #contactus-cover {
-        top: 150px;
-        width: 80%;
-        left: 32px;
-        font-size: 55%;
-        height: 500px;
-        transform: translate(5%, -5%);    
+        top: 100px;
+        font-size: 80%;  
     }
 
     #contactus-form select {
@@ -765,6 +760,10 @@ div.gallery:hover {
         right: 100px;
         top: 180px;
         width: 105px;
+    }
+
+    #contactus-cover {
+        font-size: 70%;  
     }
 
     #error-out {
