@@ -279,24 +279,26 @@ footer {
 /* Gallery Style */
 #gallery-cover {
     width: 100%;
-    height: 675px;
+    height: 1500px;
     margin-top: 220px;
 }
 
 .responsive {
     padding: 0 6px;
     float: left;
-    width: 24.99999%;
+    width: 33.3333%;
     box-sizing: border-box;
   }
 
 div.gallery {
     border: 1px solid #751800;
+    width: 100%;
+    height: auto;
   }
   
 div.gallery img {
     width: 100%;
-    height: auto;
+    height: 435px;
   }
   
 div.desc {
@@ -416,7 +418,7 @@ div.gallery:hover {
 
 /* 404 Error Page */
 #error-out {
-    height: 600px;
+    height: 100%;
     width: 100%;
     overflow: hidden;
 
@@ -426,13 +428,6 @@ div.gallery:hover {
     height: 600px;
 }
 
-#error-cover {
-    height: 300px;
-    width: 100%;
-    padding: 20px;
-    margin: auto;
-}
-
 #error-text {
     font-size: 100%;
     font-family: ubuntu, sans-serif;
@@ -440,7 +435,7 @@ div.gallery:hover {
     text-align: center;
 
     width: auto;
-    height: 300px;
+    height: 100%;
 
     padding: 10px;
     
@@ -461,6 +456,12 @@ div.gallery:hover {
 #error-text p {
     height: 75px;
 }
+
+#error-text img {
+    height: auto;
+    width: 100%;
+}
+
 
 /* media queries */
 /* for larger to medium-large screens size from 1200 px wide and down */
@@ -505,8 +506,8 @@ div.gallery:hover {
         display: none;
     }
 
-    #gallery-cover {
-        height: 450px;
+    .responsive {
+        width: 49.9999%;
     }
 }
 
@@ -606,11 +607,11 @@ div.gallery:hover {
         left: 20%;
         transform: translate(0, -30%);
     }
-
-    #gallery-cover {
-        height: 1300px;
-    }
     
+    div.gallery img {
+        height: 300px;
+    }
+
     #contactus-cover {
         width: 600px;
     }
@@ -618,6 +619,7 @@ div.gallery:hover {
     #error-text {
         font-size: 90%;
     }
+
 }
 
 /* For medium mobile screen sizes from 600px wide and down */
