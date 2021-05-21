@@ -294,11 +294,21 @@ This has changed the look as shown on the mockup and has become responsive.
 
 - _Gallery Page_
 
+![Old Gallery view](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/oldgalleryview.jpg)
+
 Unfortunately, I did not take an image of the old version of the Gallery page. However, it was images all spread around the page and not aligned. I then tried to use the Masonary style from the Love Running project, but that too did not work out for me.
 
-Finally, I referred to the W3schools gallery responsive section and used this as the basis of my code. Its still not how I would prefer to have it final, however atleast it looks in a line formation. 
+Finally, I referred to the W3schools gallery responsive section and used this as the basis of my code. I split the gallery into 3 sections until 1201px and post this I split the gallery into 2 for ipad and finally for mobile only 1 section. This was possible by using the div.gallery img width: 100% & height: 435px to begin with and then this fell into place with the further responsiveness.
 
 ![New Gallery view](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/newgalleryview.jpg)
+
+- _Contact Us Page_
+
+![Old Gallery view](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/old-contactus-view.jpg)
+
+I had to change the #contactus-cover to width: auto, height: auto,transform: translate(0, 10%), top: 300px and left: 50px. Also the #contactus-image had to amend to max-width: 100%; opacity: .5; and background-size: cover. The backgaround image was changed and also moved from #contactus-cover to #contactus-image. 
+
+![New Gallery view](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/new-contactus-view.jpg)
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -352,6 +362,7 @@ Alternatively you can [Clone](https://docs.github.com/en/github/creating-cloning
     - [study-hall](https://pixabay.com/photos/library-college-back-to-school-948965/)
     - [herbology-greenhouse](https://pixabay.com/photos/greenhouse-historically-old-ireland-1495813/)
     - [Sunset-girl-wand](https://pixabay.com/photos/sunset-girl-shadow-magic-wand-sky-1112659/)
+    - [hogwart-owl-night](https://pixabay.com/get/g1b5ddaeb8bc6e124daec9cedc7ac195cbffb6fb072566f957d9c77553053e8409cc95dbdd2e589333ea490b8528e61e3_1920.jpg)
 
 - The Hogwarts crest and the school house crests have been taken from websites online randomly, as these are not available on any other free websites. They are available to use.
     - [hogwarts-crest](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/88ea2f25-febc-4acd-a81e-550202715dc3/d5najhh-4f69bfa2-3c87-4e75-9fc5-9bab1e3e30e9.png/v1/fill/w_894,h_894,q_75,strp/hogwarts_logo_by_shadopro-d5najhh.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi84OGVhMmYyNS1mZWJjLTRhY2QtYTgxZS01NTAyMDI3MTVkYzMvZDVuYWpoaC00ZjY5YmZhMi0zYzg3LTRlNzUtOWZjNS05YmFiMWUzZTMwZTkucG5nIiwid2lkdGgiOiI8PTg5NCIsImhlaWdodCI6Ijw9ODk0In1dXX0.bs7K9LmY8HlNxlULFvsDD6f0Q94iOFe18zhbMb5augA)
@@ -363,7 +374,6 @@ Alternatively you can [Clone](https://docs.github.com/en/github/creating-cloning
     - [classroom](https://i.pinimg.com/originals/5d/22/9f/5d229f8b5706222e83618d080e993de5.jpg)
     - [dormitory](https://live.staticflickr.com/7229/7180832127_25ccb6cdce_b.jpg)
     - [hogwarts-train1](https://i.pinimg.com/originals/0f/e9/c6/0fe9c63b2db07b9f6175d9abb4a0da61.jpg)
-    - [magic-wand](https://asia-se1-img-listing.eccang.com/0/dUFKTytqSldrZjlLdjVoVXA5T1NKdz09/201908/11471674loY4shGU.jpg)
     - [great-hall](http://i1.ytimg.com/vi/FWZsya9giqA/maxresdefault.jpg)
       
 > NOTE: These photographs are just used for a project and at any point of time can be changed if I have more available on the free websites.

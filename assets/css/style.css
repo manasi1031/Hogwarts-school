@@ -338,8 +338,8 @@ div.gallery:hover {
     letter-spacing: 2px;
     text-align: justify;
 
-    width: 350px;
-    height: 300px;
+    width: auto;
+    height: auto;
 
     padding: 10px;
     
