@@ -25,13 +25,13 @@ Enjoy the magical journey!
 
 ## Table of Contents
 ---
-- [UX](#-ux)
+- [UX](#ux)
     - [Goals](#goals)
         - [Vision](#vision)
         - [Aim](#aim)
         - [Target Audience](#target-audience)
         - [User Stories](#user-stories)
-    - [Structure of the Website](#=structure-of-the-website)
+    - [Structure of the Website](#structure-of-the-website)
         - [Design](#design)
         - [Typography](#typography)
         - [Color Scheme](#color-scheme)
@@ -66,9 +66,9 @@ My aim is to provide data relevant to the user story and enhance the overall vis
 
 #### Target Audience 
 
-- Prospective Parents and Children
-- Parents of Children currently studying and also the children
-- Apart from the above Professors, Administration staff, Nurse, etc to look for job vacancies
+- Prospective Parents and Children.
+- Parents of Children currently studying and also the children.
+- Apart from the above Professors, Administration staff, Nurse, etc to look for job vacancies.
 
 #### User Stories
 
@@ -120,7 +120,7 @@ Colors chosen are either direct colors or in the palette shades to give a better
 
 #### Wireframes
 
-I used balsamiq to create wireframes for this project.
+Balsamiq has been used to create wireframes for this project.
 
 - [Laptop view of Home page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/home-laptop-view.jpg)
 
@@ -170,7 +170,7 @@ The website consists of 4 pages. Three are accessible from a navigation menu and
 - Contact Us section:
     - This section gives the person accessing the option to send a message to school and ask any relevant queries.
 - 404 error page:
-    - This is not a visible site but is available in case there is any error and will have the navigation links to return back toe Home page.
+    - This is not a visible site but is available in case there is any error and will have the navigation links to return back to Home page.
 
 #### Features Left to Implement and will be in future versions:
 
@@ -224,33 +224,33 @@ I used Google Chrome DevTools to check the responsiveness of the web page on dif
 
 #### Compatibility testing:
 
-Site was tested in various devices on the Google chrome DevTools, however apart from this, physically checked in Moto G4, Redmi Note 5 Pro, Ipad Air, Ipad Air2, Iphone 11 for different software's.
+Site was tested in various devices on the Google chrome DevTools, however apart from this, physically checked in Moto G4, Redmi Note 5 Pro, Ipad Air, Ipad Air2 and Iphone 11 for different software's.
 
 #### User Testing Stories:
 
-- I have created a main home page and have information stored structurally in order of home page where welcome note from Deputy Headmistress is there along with history of school and the newsletter. This covers the below user story.
+- I have created a main home page and have information stored structurally in order of home page where welcome note from Deputy Headmistress is there along with history of school and the newsletter. This covers the below user story:
 
     _“I want to ascertain the purpose of the website and learn more about the school.”_
 
-- There are navigational links for the other pages and I have made maximum 3 pages for ease of use. This remains constant for all devices. This covers the below 2 user stories.
+- There are navigational links for the other pages and I have made maximum 3 pages for ease of use. This remains constant for all devices. This covers the below 2 user stories:
     
     _“I want to be able to easily navigate through the website.”_
 
     _“I want to easily access relevant information.”_
 
-- The site has been made responsive to be viewed on laptop, tablets and mobiles. This covers the below user story.
+- The site has been made responsive to be viewed on laptop, tablets and mobiles. This covers the below user story:
 
     _“I want to be able to access the site from all device types.”_
 
-- I have created a contact us form section for any questions or general enquiries that parents may have and that have not been covered yet. The school is magical and does not have any phones. Also the school is hidden and hence the exact location of school also is not shared. People can only contact via the contact us form currently or OWL post. This covers the below user story
+- I have created a contact us form section for any questions or general enquiries that parents may have and that have not been covered yet. The school is magical and does not have any phones. Also the school is hidden and hence the exact location of school also is not shared. People can only contact via the contact us form currently or OWL post. This covers the below user story:
 
     _“I want to be able to contact the school with questions that I might have.”_
 
-- The school can be accessed via social media like Instagram, Facebook, You Tube and Twitter. There are links to this on each page as well. This covers the below user story.
+- The school can be accessed via social media like Instagram, Facebook, You Tube and Twitter. There are links to this on each page as well. This covers the below user story:
 
     _"I want to be able to access the social media links of the school."_
 
-- There is a separate tab on the home page which highlights any school newsletters that are announced during school year for parent information. This can also be downloaded as a pdf format and can be used by Parents at their convenience. This covers the below user story.
+- There is a separate tab on the home page which highlights any school newsletters that are announced during school year for parent information. This can also be downloaded as a pdf format and can be used by Parents at their convenience. This covers the below user story:
 
     _“I want to see any updated newsletters during school year.”_
 
@@ -258,15 +258,16 @@ Site was tested in various devices on the Google chrome DevTools, however apart 
 #### Code Validation:
 
 At the and of the project I used two websites to validate the codes:
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS
-- [W3C Html Validator](https://validator.w3.org/) to test HTML
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS.
+- [W3C Html Validator](https://validator.w3.org/) to test HTML.
+
 Note: No errors were received.
 
 #### Issues found during deployment:
 
 As this was my first project, I have been rectifying changes as I see, however, there were 3 crucial issues that I had to work with.
 
-- Logo and header responsiveness for mobile.
+- _Logo and header responsiveness for mobile_
 
 ![Logo CSS error on mobile](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/logo-css-small-mobile.jpg)
 
@@ -282,7 +283,7 @@ As this was my first project, I have been rectifying changes as I see, however, 
 
 This has changed the look as shown on the mockup and has become responsive.
 
-- Home page welcome note issue on the hero-image.
+- _Home page welcome note issue on the hero-image_
 
 ![text Cover Error](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/text-cover-error.jpg)
 
@@ -293,11 +294,11 @@ I then added the following CSS rules as below:
 
 This has changed the look as shown on the mockup and has become responsive.
 
-- Gallery Page
+- _Gallery Page_
 
-Unfortunately I did not remember to take an image of the Old version of the Gallery page. However, it was images all spread around the page and not aligned. I then tried to use the Masonary style from the Love Running project, but that too did not work out.
+Unfortunately, I did not take an image of the old version of the Gallery page. However, it was images all spread around the page and not aligned. I then tried to use the Masonary style from the Love Running project, but that too did not work out for me.
 
-Finally I referred to the W3schools gallery responsive section and used this as the basis of my code. Its still not how I would prefer to have it final, however atleast it looks in a line formation. 
+Finally, I referred to the W3schools gallery responsive section and used this as the basis of my code. Its still not how I would prefer to have it final, however atleast it looks in a line formation. 
 
 ![New Gallery view](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/newgalleryview.jpg)
 
@@ -343,7 +344,7 @@ Alternatively you can [Clone](https://docs.github.com/en/github/creating-cloning
 
 - The gallery responsive code is taken from w3schools CSS – [Gallery Responsive section](https://www.w3schools.com/Css/tryit.asp?filename=trycss_image_gallery_responsive) and then further modified to fit the page. My Mentor did suggest to use bootstrap, however, I want to just stick to HTML and CSS.
 
-- In general I used the knowledge and reference of [w3schools](https://www.w3schools.com/) to guide me.
+- In general, I used the knowledge and reference of [w3schools](https://www.w3schools.com/) to guide me and learn more.
 
 #### Media
 
@@ -382,7 +383,7 @@ As I could not create a real version as of yet, I have just used some comprehens
 
 I could not have done this project without the guidance and confidence of my mentor - Adegbenga Adeye.
 
-Last but not the least, I would like to thank [Code Institute](https://codeinstitute.net/) for giving me this chance to learn and understand something.
+Last but not the least, I would like to thank [Code Institute](https://codeinstitute.net/) for their support.
 
 [Back to Table of Contents](#table-of-contents)
 
