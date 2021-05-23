@@ -43,6 +43,7 @@ Enjoy the magical journey!
     - [User Testing Stories](#user-testing-stories)
     - [Code Validation](#code-validation)
     - [Issues found during deployment](#issues-found-during-deployment)
+    - [Performance Testing](#performance-testing)
 - [Deployment](#deployment)
 - [Credits](#credits)
 - [Screen Shots](#screen-shots)
@@ -114,7 +115,7 @@ Colors chosen are either direct colors or in the palette shades to give a better
 - Hover links border color #67003E
 - Background for Submit button Hover #E22B60
 
-[Click here to view Color Palette](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/Color-Palette.pdf) 
+[Click here to view Color Palette](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/color-palette.pdf) 
 
 #### Wireframes
 
@@ -304,13 +305,33 @@ Finally, I referred to the W3schools gallery responsive section and used this as
 
 - _Contact Us Page_
 
-![Old Gallery view](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/old-contactus-view.jpg)
+![Old Contact Us view](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/old-contactus-view.jpg)
 
 I had to change the #contactus-cover to width: auto, height: auto,transform: translate(0, 10%), top: 300px and left: 50px. Also the #contactus-image had to amend to max-width: 100%; opacity: .5; and background-size: cover. The backgaround image was changed and also moved from #contactus-cover to #contactus-image. 
 
-![New Gallery view](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/new-contactus-view.jpg)
+![New Contact Us view](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/new-contactus-view.jpg)
 
 [Back to Table of Contents](#table-of-contents)
+
+#### Performance Testing:
+
+I used [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool for testing the performance of my website.
+
+Laptop Lighthouse testing View:
+
+[Laptop Lighthouse testing View]9https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/laptop-lighthouse-overview.jpg)
+
+Mobile Lighthouse testing View:
+
+[Mobile Lighthouse testing View]9https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/mobile-lighthouse-overview.jpg)
+
+
+If you wish to see the reports in full, please click on the links below:
+
+![Laptop Lighthouse Testing Report](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/laptop-lighthouse-report.pdf)
+
+![Mobile Lighthouse Testing Report](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/mobile-lighthouse-report.pdf)
+
 
 ----------
 
