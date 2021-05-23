@@ -311,7 +311,6 @@ I had to change the #contactus-cover to width: auto, height: auto,transform: tra
 
 ![New Contact Us view](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/new-contactus-view.jpg)
 
-[Back to Table of Contents](#table-of-contents)
 
 #### Performance Testing:
 
@@ -319,18 +318,18 @@ I used [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool fo
 
 Laptop Lighthouse testing View:
 
-[Laptop Lighthouse testing View](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/laptop-lighthouse-overview.jpg)
+![Laptop Lighthouse testing View](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/laptop-lighthouse-overview.jpg)
 
 Mobile Lighthouse testing View:
 
-[Mobile Lighthouse testing View](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/mobile-lighthouse-overview.jpg)
+![Mobile Lighthouse testing View](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/mobile-lighthouse-overview.jpg)
 
 
 If you wish to see the reports in complete for the website, please click on the links below:
 
-![Laptop Lighthouse Testing Report](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/laptop-lighthouse-report.pdf)
+[Laptop Lighthouse Testing Report](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/laptop-lighthouse-report.pdf)
 
-![Mobile Lighthouse Testing Report](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/mobile-lighthouse-report.pdf)
+[Mobile Lighthouse Testing Report](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/docs/mobile-lighthouse-report.pdf)
 
 
 [Back to Table of Contents](#table-of-contents)
