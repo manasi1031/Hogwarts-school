@@ -426,9 +426,9 @@ Last but not the least, I would like to thank [Code Institute](https://codeinsti
 
 ![Laptop View Gallery Page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/laptop-gallery-page.jpg)
 
-![Laptop View Contact Us Page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/laptop-contactus-page.jpg)
+![View Contact Us Page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/contactus-page.jpg)
 
-![Laptop View 404 Error Page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/laptop-404-error-page.jpg)
+![View 404 Error Page](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/404-error-page.jpg)
 
 [Back to Table of Contents](#table-of-contents)
 
