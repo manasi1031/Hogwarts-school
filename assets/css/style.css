@@ -328,7 +328,7 @@ div.gallery:hover {
     margin-top: 250px;
     height: 660px;
     max-width: 100%;
-    opacity: .5;
+    opacity: .8;
     background-size: cover;
 }
 
@@ -338,17 +338,13 @@ div.gallery:hover {
     letter-spacing: 2px;
     text-align: justify;
 
-    width: auto;
+    width: 100%;
     height: auto;
 
-    padding: 10px;
-    
     background-color: rgba(255, 212, 212, 0.6);
     color: #0F0C00;
 
-    transform: translate(0, 10%);
     top: 300px;
-    left: 50px;
 
     background-position: center;
     position: absolute;
@@ -522,9 +518,6 @@ div.gallery:hover {
         width: 49.9999%;
     }
 
-    #contactus-cover {
-        left: 0;
-    }
 }
 
 /* For medium-large to medium screen sizes from 950px wide and down */
@@ -723,7 +716,7 @@ div.gallery:hover {
     }
 
     #contactus-cover {
-        top: 100px;
+        top: 145px;
         font-size: 80%;  
     }
 

@@ -297,7 +297,7 @@ This has changed the look as shown on the mockup and has become responsive.
 
 ![Old Gallery view](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/oldgalleryview.jpg)
 
-Unfortunately, I did not take an image of the old version of the Gallery page. However, it was images all spread around the page and not aligned. I then tried to use the Masonary style from the Love Running project, but that too did not work out for me.
+Unfortunately, I did not take an image of the initial version of the Gallery page so I have attached the last bug that I currently had. The initial page had images all spread around the page and not aligned. I then tried to use the Masonary style from the Love Running project, but that too did not work out for me.
 
 Finally, I referred to the W3schools gallery responsive section and used this as the basis of my code. I split the gallery into 3 sections until 1201px and post this I split the gallery into 2 for ipad and finally for mobile only 1 section. This was possible by using the div.gallery img width: 100% & height: 435px to begin with and then this fell into place with the further responsiveness.
 
@@ -307,7 +307,7 @@ Finally, I referred to the W3schools gallery responsive section and used this as
 
 ![Old Contact Us view](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/old-contactus-view.jpg)
 
-I had to change the #contactus-cover to width: auto, height: auto,transform: translate(0, 10%), top: 300px and left: 50px. Also the #contactus-image had to amend to max-width: 100%; opacity: .5; and background-size: cover. The backgaround image was changed and also moved from #contactus-cover to #contactus-image. 
+I had to change the #contactus-cover to width: 95%, height: auto, top: 300px. Also the #contactus-image had to amend to max-width: 100%; opacity: .8; and background-size: cover. The backgaround image was changed and also moved from #contactus-cover to #contactus-image. 
 
 ![New Contact Us view](https://github.com/manasi1031/Hogwarts-school/blob/master/assets/images/new-contactus-view.jpg)
 
